@@ -1,0 +1,227 @@
+.container{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 750px;
+    height: 713px;
+    background-color: #2666fa;
+}
+.container img{
+    position: relative;
+    left: 15%;
+    top: 14%;
+}
+.container span a{
+    position: absolute;
+    top: 6%;
+    left: 20.5%;
+    text-decoration: none;
+    font-size: 18px;
+    color: #dee8fe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container h1{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    text-decoration: none;
+    font-size: 3rem;
+    color: #dee8fe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container h1 span{
+    position: absolute;
+    left: 22%;
+}
+.Login{
+    position: absolute;
+    top: 4.5%;
+    right:10%;
+    outline: none;
+    background-color: #2666fa;
+    border: 2px solid #2666fa;
+    color: #dee8fe;
+    font-size: 13px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+    transition-property: background-color,box-shadow;
+}
+.Login:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #2666fa;
+}
+.haveacc{
+    position: absolute;
+    right: 18%;
+    top: 6.3%;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a4a0b7;
+}
+.h{
+    position: absolute;
+    top: 12%;
+    right: 21.4%;
+    width: 310px;
+}
+h4{
+    color: black;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h span{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a4a0b7;
+    top: 70%;
+}
+.first{
+    position: absolute;
+    list-style: none;
+    top: 33%;
+    right: 17.2%;
+    display: grid;
+    grid-template-columns:  repeat(2,auto);
+    grid-template-rows:auto;
+    column-gap: 20px;
+}
+.first li input{
+    padding-left: 20px;
+    width: 153px;
+    height: 50px;
+    background-color: #fff;
+    outline-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 3px 0px rgba(128, 128, 128, 0.529);
+    border-radius: 5px;
+}
+.first li input:focus{
+    outline-color: #2666fa;
+    border: #2666fa;
+}
+ul
+{
+    position: absolute;
+    list-style: none;
+    top: 43%;
+    right: 17.2%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2,auto);
+    row-gap: 15px;
+}
+ul li input{
+    padding-left: 20px;
+    width: 350px;
+    height: 50px;
+    background-color: #fff;
+    outline-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 3px 0px rgba(128, 128, 128, 0.529);
+    border-radius: 5px;
+}
+ul li input ::placeholder{
+    color: #a4a0b7;
+}
+input:focus{
+    outline-color: #2666fa;
+    border: #2666fa;
+}
+.log{
+    position: absolute;
+    top: 65%;
+    right: 17.2%;
+    padding-left: 0px;
+    width: 375px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #2666fa;
+    outline-color: #2666fa;
+    border: 1px solid #2666fa;
+    box-shadow: 0px 2px 3px 0px rgba(128, 128, 128, 0.529);
+    border-radius: 5px;
+}
+.log:hover{
+    cursor: pointer;
+}
+.or{
+    position: absolute;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    top: 74%;
+    right: 28.8%;
+}
+.or::before{
+    content: "";
+    position: absolute;
+    left: -450%;
+    transform: translateX(-50%);
+    height: 1.5px;
+    background-color: black;
+    bottom: 10px;
+    width: 170px;
+}
+.or::after{
+    content: "";
+    position: absolute;
+    left: 550%;
+    transform: translateX(-50%);
+    height: 1.5px;
+    background-color: black;
+    bottom: 10px;
+    width: 170px;
+}
+button{
+    position: absolute;
+    top: 78.5%;
+    right: 17.2%;
+    width: 375px;
+    height: 50px;
+    background-color: #fff;
+    outline-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 3px 0px rgba(128, 128, 128, 0.529);
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
+button img{
+    position: relative;
+    top: 5px;
+    left: -10px;
+}
+.facebook{
+    position: absolute;
+    top: 87.5%;
+    right: 17.2%;
+    width: 375px;
+    height: 50px;
+    background-color: #fff;
+    outline-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 3px 0px rgba(128, 128, 128, 0.529);
+    border-radius: 5px;
+}
+.facebook:hover{
+    cursor: pointer;
+}
+.facebook img{
+    position: relative;
+    top: 5px;
+    left: -10px;
+}
+@keyframes shake{
+    25%{transform: translateX(4px);}
+    50%{transform: translateX(-4px);}
+    75%{transform: translateX(4px);}
+}
+.sha:focus{
+    animation: shake 0.3s;
+}

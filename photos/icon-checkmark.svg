@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 17 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-checkmark</title>
+    <g id="Enterprise-Product" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Enterprise-Product-1a" transform="translate(-833.000000, -1211.000000)" stroke="#1F39FF" stroke-width="2">
+            <g id="1.-Workshop" transform="translate(130.000000, 883.000000)">
+                <g id="Text" transform="translate(704.000000, 42.000000)">
+                    <polyline id="icon-checkmark" points="0 290.977 5.641 296.618 15.26 287"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
