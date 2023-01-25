@@ -23,6 +23,8 @@ body::-webkit-scrollbar{
     left: 2%;
     border-radius: 50px;
     z-index: 100;
+    width: 100px;
+    height: 85px;
 }
 .study{
     position: absolute;
@@ -649,4 +651,26 @@ body::-webkit-scrollbar{
 }
 .footer ul li img{
     border-radius: 5px;
+}
+@media screen and (max-width:320px) {
+    .header{
+        width: 320px;
+        height: 50px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        z-index: 100;
+        top: 0%;
+    }
+    .search{
+        width: 150px;
+        height: 30px;
+        top: 8px;
+        left: 90px;
+        padding: 2px;
+    }
+    .search::placeholder{
+        font-size: 10px;
+    }
 }
