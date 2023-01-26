@@ -652,7 +652,7 @@ body::-webkit-scrollbar{
 .footer ul li img{
     border-radius: 5px;
 }
-@media screen and (max-width:320px) {
+@media (max-width:767px) {
     .header{
         width: 320px;
         height: 50px;
