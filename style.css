@@ -654,7 +654,7 @@ body::-webkit-scrollbar{
 }
 @media (max-width:767px) {
     .header{
-        width: 320px;
+        width: 767px;
         height: 50px;
     }
     .logo{
